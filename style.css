@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    text-align: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    height: 40px;
+    background-color: #585563;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    background-color: aliceblue;
+}
+main{
+   
+    text-align: center;
+    padding: 2rem;
+    margin: 20px auto;
+    width: 700px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.input-food{
+    padding: 5px 10px;
+    outline: none;
+}
+.save-btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #585563;
+    color: #fff;
+}
+
+.container-div{
+    background-color: #fff;
+}
+
+/* .list-container{
+
+    background-color: #fff;
+    list-style: none;
+    padding: 2rem;
+    margin: 20px;
+} */
+
+.food-item{
+    border: 1px solid brown;
+    margin: 10px;
+    text-align: start;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+section{
+    background-color: #fff;
+    margin: 10px ;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(231, 231, 231);
+    color: #585563;
+}
+
+section img{
+    width: 240px;
+    opacity: 0.5;
+}
+
+/* #check-btn{
+    display: flex;
+    justify-content: end ;
+    align-items: center;
+
+}
+
+#checkde-btn{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+} */
+
+.food-item:hover{
+    color: #fff;
+    background-color: royalblue;
+}
+
+.dc-btn{
+  
+    padding: .2rem;
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: end; */
+    /* text-align: end; */
+    /* margin: auto; */
+
+}
+
+.alert{
+    text-align: left;
+    padding: 1rem;
+    background-color: #07A0C3;
+    margin: 10px 0;
+}
+
+
+
+/* For Practice */
+
+.input-container-box{
+
+    background-color: #fff;
+    padding: 2rem;
+    margin: 10px;
+    border-radius: 5px;
+    
+    transition: all 2s;
+    height: 100%;
+    width: 100%;
+
+}
+
+ .hide{
+
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    background-color: royalblue;
+    /* background-color: firebrick; */
+}
+
+.input-container-box input{
+    /* border: none; */
+    outline: none;
+}
+
+/* 
+.input-container-box button{
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: orangered;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+} */
+
+#div-btn{
+    padding: 6px;
+    float: right;
+    background-color: cadetblue; 
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    
+    cursor: pointer;
+}
+
+
+span{
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+form{
+    padding: 15px;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    /* background-color: tomato; */
+}
+ #fullname{
+    padding: 5px;
+    margin-bottom: 1rem;
+    font-size: 15 px;
+    /* border: 1px solid red; */
+    /* border: 1px solid #000; */
+    /* background-color: violet; */
+}
+
+form button{
+    margin-top: 1rem;
+    background-color: #4169a1;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+
+#about{
+    color: yellow;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+table{
+    margin: 20px auto;
+    border-spacing: 0;
+}
+tr:first-child{
+    background-color:skyblue;
+    color: #fff;
+}
+
+th,td{
+    padding: 5px 15px;
+    font-size: 15px;
+    border: .5px solid #000;
+}
+
+tr.active{
+    background-color: lightblue;
+}
+
+#donBtn{
+    margin-top: 10px;
+    background-color:lavenderblush;
+    border-radius: 5px;
+    width: 80px;    
+    cursor: pointer;
+    
+}
+h4{
+    text-align: center;
+}
+
+form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form *{
+    margin: 5px ;
+    width: 100%;
+}
+
+form input,textarea,
+select{
+    margin: 5px 5px ;
+    font-size: 13px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+form label input,
+form input[type='radio']{
+    width: auto;
+}
+
+.d-flex{
+    display: flex;
+    
+
+    }
+
+.flex{
+    display: flex;
+    align-items: first baseline;
+    justify-content: right ;
+}
+
+#food-list-count{
+    font-size: 16px;
+}
